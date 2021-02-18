@@ -6,7 +6,7 @@ use todo;
 
 -- create table poll if not exists
 CREATE TABLE if NOT EXISTS tasks (
-    id INT(11) AUTO_INCREMENT NOT NULL,
+    id INT(11) PRIMARY KEY AUTO_INCREMENT NOT NULL,
     task VARCHAR(255)  NOT NULL,
 );
 
